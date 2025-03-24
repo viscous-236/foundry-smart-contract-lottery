@@ -64,3 +64,12 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+## LOTTERY
+
+### What does the contract do?
+1. **Entry:** Users can enter the lottery by paying for the ticket
+2. **Winner:** The contract will pick a random winner after X period of time and all the ticket fees will go to the winner
+3. **ChainLink:** 
+-   Automation: Chainlink automation
+-   Randomness: Chainlink VRF
